@@ -34,3 +34,4 @@ jobs:
           echo "$(date)" > last_modified
           git add last_modified
           git commit -m "$(date)"
+          git push
